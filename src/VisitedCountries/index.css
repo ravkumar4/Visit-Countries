@@ -1,0 +1,32 @@
+.visited-country-item {
+  margin: 10px;
+  background-color: #334155;
+  list-style: none;
+  width: 330px;
+}
+.image {
+  width: 330px;
+  height: 170px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.name {
+  color: #f8fafc;
+  font-family: 'Roboto';
+}
+
+.remove-button {
+  background-color: transparent;
+  color: #cbd5e1;
+  border: 1px solid #cbd5e1;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}

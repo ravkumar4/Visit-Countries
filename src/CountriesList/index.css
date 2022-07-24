@@ -1,0 +1,29 @@
+.country-item {
+  list-style: none;
+  border: 1px solid #334155;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 9px;
+}
+
+.country-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+.visited {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+}
+
+.non-visited {
+  color: #ffffff;
+  background-color: #3b82f6;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 12px;
+  border-radius: 5px;
+}
